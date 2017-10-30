@@ -1,0 +1,143 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="text1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+
+    </style>
+
+    <style name="text2">
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textColor">@color/textcolor</item>
+    <item name="android:paddingLeft">12dp</item>
+    <item name="android:paddingTop">12dp</item>
+    <item name="android:paddingRight">12dp</item>
+
+    </style>
+    
+    <style name="image1">
+        <item name="android:layout_width">@dimen/imagewidth1</item>
+        <item name="android:layout_height">@dimen/imageheight1</item>
+        <item name="android:layout_weight">@integer/imageweight1</item>
+        <item name="android:layout_marginTop">@dimen/margintop</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/marginsleftandright</item>
+        <item name="android:layout_marginRight">@dimen/marginsleftandright</item>
+    </style>
+    <style name="image2">
+        <item name="android:layout_width">@dimen/imagewidth1</item>
+        <item name="android:layout_height">@dimen/imageheight1</item>
+        <item name="android:layout_weight">@integer/imageweight1</item>
+        <item name="android:layout_marginTop">@dimen/margintop</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/marginsleftandright</item>
+        <item name="android:layout_marginRight">@dimen/marginsleftandright</item>
+    </style>
+
+    <style name="image3">
+        <item name="android:layout_width">@dimen/imagewidth1</item>
+        <item name="android:layout_height">@dimen/imageheight1</item>
+        <item name="android:layout_weight">@integer/imageweight1</item>
+        <item name="android:layout_marginTop">@dimen/margintop</item>
+        <item name="android:layout_marginLeft">@dimen/marginsleftandright</item>
+        <item name="android:layout_marginRight">@dimen/marginsleftandright</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="text3">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">11.5sp</item>
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:layout_marginLeft">@dimen/marginsleftandright</item>
+        <item name="android:layout_marginRight">@dimen/marginsleftandright</item>
+    </style>
+
+    <style name="text4">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">11.5sp</item>
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:layout_marginLeft">@dimen/marginsleftandright</item>
+        <item name="android:layout_marginRight">@dimen/marginsleftandright</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="text5">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">11.5sp</item>
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:layout_marginLeft">@dimen/marginsleftandright</item>
+        <item name="android:layout_marginRight">@dimen/marginsleftandright</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+<style name="contacttext1">
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:textColor">@color/textcolor</item>
+    <item name="android:textSize">12sp</item>
+    <item name="android:paddingLeft">8dp</item>
+
+</style>
+
+    <style name="contacttext2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">8dp</item>
+
+    </style>
+
+    <style name="contacttext3">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">8dp</item>
+
+    </style>
+
+    <style name="contacttext4">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">8dp</item>
+
+    </style>
+
+    <style name="contacttext5">
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:textColor">@color/textcolor</item>
+    <item name="android:textSize">12sp</item>
+    <item name="android:paddingLeft">8dp</item>
+
+    </style>
+
+</resources>
+

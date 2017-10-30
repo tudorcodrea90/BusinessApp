@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DynamicFunds</string>
+    <string name="aboutus">About us</string>
+    <string name="description">Our company offers integrated consultancy services in order to assist you in accessing EU funds for your project through the entire cycle from its initial development to its implementation and evaluation. Moreover, we use our experience and know-how in offering services in public procurement and trainings in accessing EU funds.</string>
+    <string name="services">Our services</string>
+    <string name="managementconsulting">Consulting</string>
+    <string name="publicprocurement">Procurement</string>
+    <string name="trainings">Trainings</string>
+    <string name="place">Nasaud Street, no. 14, Cluj-Napoca</string>
+    <string name="website">www.dynamicfunds.ro</string>
+    <string name="call">0264442302; 0721839233</string>
+    <string name="email">office@dynamic.ro</string>
+    <string name="clock">Open hours: 08:00 a.m. - 16:30 p.m.</string>
+
+</resources>

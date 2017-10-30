@@ -1,0 +1,155 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.android.dynamicfunds.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/banner"/>
+
+    <TextView
+        style="@style/text1"
+        android:text="@string/aboutus" />
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/description" />
+
+    <TextView
+        style="@style/text1"
+        android:text="@string/services"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/consulting1"
+            style="@style/image1"
+            android:src="@drawable/managementconsulting"/>
+
+        <ImageView
+            android:id="@+id/publicprocurement1"
+            style="@style/image2"
+            android:src="@drawable/publicprocurement"/>
+
+        <ImageView
+            android:id="@+id/trainings1"
+            style="@style/image3"
+            android:src="@drawable/trainings"/>
+    </LinearLayout>
+</HorizontalScrollView>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/consulting2"
+            style="@style/text3"
+            android:text="@string/managementconsulting"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/publicprocurement2"
+            style="@style/text4"
+            android:text="@string/publicprocurement"/>
+
+        <TextView
+            android:id="@+id/trainings2"
+            style="@style/text5"
+            android:text="@string/trainings"/>
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        style="@style/contacttext1"
+        android:text="@string/place"
+        android:drawableLeft="@drawable/iconplace"
+        android:gravity="center_vertical"
+        android:drawablePadding="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        style="@style/contacttext2"
+        android:text="@string/website"
+        android:drawableLeft="@drawable/iconsite"
+        android:gravity="center_vertical"
+        android:drawablePadding="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        style="@style/contacttext3"
+        android:text="@string/call"
+        android:drawableLeft="@drawable/iconcall"
+        android:gravity="center_vertical"
+        android:drawablePadding="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        style="@style/contacttext4"
+        android:text="@string/email"
+        android:drawableLeft="@drawable/iconmail"
+        android:gravity="center_vertical"
+        android:drawablePadding="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        style="@style/contacttext5"
+        android:text="@string/clock"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/iconclock"
+        android:drawablePadding="16dp"/>
+
+
+</LinearLayout>
+
+</ScrollView>
